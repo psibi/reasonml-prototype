@@ -50,5 +50,7 @@ let make = _children => {
       <br />
       <a href="#bye"> (str("Bye")) </a>
       (handleRoute(self.state.currentRoute))
+      <br />
+      <PersonalInformation name="hello" />
     </div>
 };

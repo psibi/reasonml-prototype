@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-slick": "^0.18.0",
     "reason-scripts": "0.8.0"
   },
   "scripts": {
