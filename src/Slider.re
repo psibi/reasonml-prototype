@@ -1,4 +1,5 @@
-[@bs.module] external slider : ReasonReact.reactClass = "react-slick";
+[@bs.module "react-slick"]
+external slider : ReasonReact.reactClass = "default";
 
 let make =
     (
