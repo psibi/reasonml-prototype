@@ -1,5 +1,5 @@
 /* PersonalInformation.re */
-[@bs.module "./PersonalInformation.js"]
+[@bs.module "./PersonalInformation.jsx"]
 external jsPersonalInformation : ReasonReact.reactClass = "default";
 
 let make = (~name: string, children) =>

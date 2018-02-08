@@ -7,6 +7,10 @@
     "reason-react",
     "bs-jest"
   ],
+ "package-specs": [{
+    "module": "commonjs",
+    "in-source": true
+  }],
   "reason": {
     "react-jsx": 2
   },
