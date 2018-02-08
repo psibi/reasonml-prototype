@@ -1,5 +1,9 @@
 [%bs.raw {|require('./app.css')|}];
 
+[%bs.raw {|require('slick-carousel/slick/slick.css')|}];
+
+[%bs.raw {|require('slick-carousel/slick/slick-theme.css')|}];
+
 [@bs.module] external logo : string = "./logo.svg";
 
 let component = ReasonReact.statelessComponent("App");

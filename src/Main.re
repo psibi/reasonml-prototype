@@ -52,5 +52,14 @@ let make = _children => {
       (handleRoute(self.state.currentRoute))
       <br />
       <PersonalInformation name="hello" />
+      <Slider
+        dots=true infinite=false speed=500 slidesToShow=1 slidesToScroll=1>
+        <div> <h3> (str("1")) </h3> </div>
+        <div> <h3> (str("2")) </h3> </div>
+        <div> <h3> (str("3")) </h3> </div>
+        <div> <h3> (str("4")) </h3> </div>
+        <div> <h3> (str("5")) </h3> </div>
+        <div> <h3> (str("6")) </h3> </div>
+      </Slider>
     </div>
 };

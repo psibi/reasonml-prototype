@@ -6,7 +6,7 @@ var ReasonReact = require("reason-react/src/ReasonReact.js");
 var ReactSlick  = require("react-slick");
 
 function make(dots, infinite, speed, slidesToShow, slidesToScroll, children) {
-  return ReasonReact.wrapJsForReason(ReactSlick, {
+  return ReasonReact.wrapJsForReason(ReactSlick.default, {
               dots: Js_boolean.to_js_boolean(dots),
               infinite: Js_boolean.to_js_boolean(infinite),
               speed: speed,

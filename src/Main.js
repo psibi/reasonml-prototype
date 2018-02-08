@@ -5,6 +5,7 @@ var Page                = require("./Page.js");
 var Block               = require("bs-platform/lib/js/block.js");
 var Curry               = require("bs-platform/lib/js/curry.js");
 var React               = require("react");
+var Slider              = require("./Slider.js");
 var HelloWorld          = require("./HelloWorld.js");
 var ReasonReact         = require("reason-react/src/ReasonReact.js");
 var PersonalInformation = require("./PersonalInformation.js");
@@ -35,7 +36,14 @@ function make() {
                       href: "#hello"
                     }, "Hello world"), React.createElement("br", undefined), React.createElement("a", {
                       href: "#bye"
-                    }, "Bye"), handleRoute(self[/* state */2][/* currentRoute */0]), React.createElement("br", undefined), ReasonReact.element(/* None */0, /* None */0, PersonalInformation.make("hello", /* array */[])));
+                    }, "Bye"), handleRoute(self[/* state */2][/* currentRoute */0]), React.createElement("br", undefined), ReasonReact.element(/* None */0, /* None */0, PersonalInformation.make("hello", /* array */[])), ReasonReact.element(/* None */0, /* None */0, Slider.make(/* true */1, /* false */0, 500, 1, 1, /* array */[
+                          React.createElement("div", undefined, React.createElement("h3", undefined, "1")),
+                          React.createElement("div", undefined, React.createElement("h3", undefined, "2")),
+                          React.createElement("div", undefined, React.createElement("h3", undefined, "3")),
+                          React.createElement("div", undefined, React.createElement("h3", undefined, "4")),
+                          React.createElement("div", undefined, React.createElement("h3", undefined, "5")),
+                          React.createElement("div", undefined, React.createElement("h3", undefined, "6"))
+                        ])));
     });
   newrecord[/* initialState */10] = (function () {
       return /* record */[/* currentRoute : Home */0];

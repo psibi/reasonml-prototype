@@ -8,6 +8,10 @@ var ReasonReact = require("reason-react/src/ReasonReact.js");
 
 ((require('./app.css')));
 
+((require('slick-carousel/slick/slick.css')));
+
+((require('slick-carousel/slick/slick-theme.css')));
+
 var component = ReasonReact.statelessComponent("App");
 
 function make(message, _) {
